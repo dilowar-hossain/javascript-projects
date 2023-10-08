@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Exo+2&family=Inclusive+Sans&family=Kanit:wght@300&family=Martian+Mono:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #e67e22;
+    display: flex;
+
+}
+
+#mainBox{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background-color: #57606f;
+    border-radius: 20px;
+    /* overflow: scroll; */
+
+}
+
+#textBox{
+    width: 89%;
+    padding: 8px 2px 8px 11px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: 11px;
+    margin-right: 11px;
+
+    margin-top: 20px; */
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+#textNote i{
+    position: relative;
+    float: right;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    /* display: none; */
+}
+#textNote{
+    width: 91%;
+    margin: 14px auto;
+
+}
+
+#textNote li{
+    overflow:hidden;
+    background-color: #a4b0be;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    list-style: none;
+}
+.done{
+    text-decoration: line-through;
+    color: gold;
+    background-color: gray !important;
+}

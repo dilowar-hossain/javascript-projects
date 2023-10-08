@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Inclusive+Sans&family=Kanit:wght@300&family=Martian+Mono:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: "Inclusive Sans", sans-serif; */
+  font-family: "Kanit", sans-serif;
+}
+#new{
+    text-align: center;
+    margin: 15px 0;
+    background-color: white;
+    border: 1px solid rgb(27, 27, 18);
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pwd {
+  height: 300px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: aquamarine;
+  /* text-align: center; */
+
+}
+.check input {
+    
+  float: right;
+  border: none;
+}
+button{
+    width: 80%;
+    /* padding: 5px; */
+    font-size: 20px;
+    /* border: none; */
+
+}
+.Generate{
+    text-align: center;
+    padding-top: 30px;
+}
